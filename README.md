@@ -1,0 +1,1 @@
+Final Project for Clientside web programming. Assignment was to recreate the style of the official QEP page (https://resilience.appstate.edu/about/), and then create a working program that uses AJAX to fetch data from the provided backend and use it to dynamically update the frontend webpage. 
