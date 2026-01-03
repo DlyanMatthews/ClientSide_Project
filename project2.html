@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Study Abroad Opportunities</title>
+    <link rel="stylesheet" href='./project1.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src="project2.js"></script>
+</head>
+<body>
+    <header id="top-header">
+        <a href="https://www.appstate.edu/" target="_blank" role="link">
+            <img src="https://api.appstate.edu/assets/appstate-new-1200.svg" 
+            alt="Appalachian State University" width="100" title="">
+        </a>
+        <button type="button" id="appstate-search-button">
+            <span class="sr-only">Search</span>
+        </button>
+    </header>
+
+    <header id="main-header">
+        <a href="https://resilience.appstate.edu/" role="link">
+            <img src="https://resilience.appstate.edu/wp-content/uploads/2024/01/QEP_RECTANGLE_Grey_Gold_White-for-Black-Background.png" 
+            alt="Pathways to Resilience" title="">
+        </a>
+        <ul>
+            <a href="https://resilience.appstate.edu/about/">About</a>
+            <a href="https://resilience.appstate.edu/students/">For Students</a>
+            <a href="https://resilience.appstate.edu/factulty/">For Faculty</a>
+            <a href="https://resilience.appstate.edu/events/">Events</a>
+            <a href="https://resilience.appstate.edu/contact/">Contact</a>
+        </ul>
+    </header>
+
+    <header id="location">
+        <div id="crumbs">
+            <a href="https://resilience.appstate.edu">Home</a> 
+            <span class="delimiter">/</span> 
+            <a href="https://resilience.appstate.edu/about/">About</a>
+            <span class="delimiter">/</span>
+            <span class="current">Study Abroad Opportunities</span>
+        </div>
+    </header>
+
+    <h1>Search for people by language</h1>
+    <ul>
+        <div>
+        Language: 
+            <select name="Dropdown1-1" id="Dropdown1-1">
+                <option value="Title">Language</option>
+                <option value="line">----</option>
+                <option value="option1">Arabic</option>
+                <option value="option2">French</option>
+            </select>
+        </div>
+
+        <div>  
+        Proficiency: 
+            <select name="Dropdown1-2" id="Dropdown1-2">
+                <option value="Low">Low</option>
+                <option value="Med">Medium</option>
+                <option value="High">High</option>
+            </select>
+        </div>
+
+        <button id="search1">Search</button>
+    </ul>
+    <div id="language"></div>
+
+    <h1>Search by academic affiliation, country and last name</h1>
+    <ul>
+        <div>
+        Department: 
+            <select name="Dropdown2-1" id="Dropdown2-1">
+                <option value="Any">Any</option>
+            </select>
+        </div>
+
+        <div>
+        College: 
+            <select name="Dropdown2-2" id="Dropdown2-2">
+                <option value="Any">Any</option>
+            </select>
+        </div>
+
+        <div>
+        Country: 
+            <select name="Dropdown2-3" id="Dropdown2-3">
+                <option value="Any">Any</option>
+            </select>
+        </div>
+
+        <div>
+        Last Name: 
+            <select name="Dropdown2-4" id="Dropdown2-4">
+                <option value="Any">Any</option>
+            </select>
+        </div>
+
+        <button id="search2">Search</button>
+    </ul>
+    <div id="project"></div>
+
+    <h1>Study abroad opportunities available</h1>
+    <ul>
+        <div>
+            Term: 
+            <select name="Dropdown3-1" id="Dropdown3-1">
+                <option value="Any">Any</option>
+            </select>
+        </div>
+
+        <div>
+            Program Name: 
+            <select name="Dropdown3-2" id="Dropdown3-2">
+                <option value="Any">Any</option>
+            </select>
+        </div>
+
+        <div>
+            Country: 
+            <select name="Dropdown3-3" id="Dropdown3-3">
+                <option value="Any">Any</option>
+            </select>
+        </div>
+
+        <div>
+            Department: 
+            <select name="Dropdown3-4" id="Dropdown3-4">
+                <option value="Any">Any</option>
+            </select>
+        </div>
+
+        <div>
+            Dates: 
+            <select name="Dropdown3-5" id="Dropdown3-5">
+                <option value="Any">Any</option>
+            </select>
+        </div>
+
+        <button id="search3">Search</button>
+    </ul>
+    <div id="study_abroad">
+    </div>
+
+    
+    <footer id = "navButIDontWanna">
+        <a href="https://www.appstate.edu/" target="_blank" role="link">
+            <img src="https://api.appstate.edu/assets/appstate-new-1200.svg" 
+            alt="Appalachian State University" width="100" title="">
+        </a>
+    </footer>
+    <footer id="copyright">
+        <p>© 2025 Appalachian State University. All rights reserved.</p>
+    </footer>
+</body>
+</html>
